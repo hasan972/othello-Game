@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Othello Game</title>
+    <link href="boot & js/twitter-bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="boot & js/twitter-bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="app.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="navbar navbar-inverse">
+      <div class="navbar-inner">
+        <h1>This Game Is Made By Rakibul Hasan Shanto</h1>
+      </div>
+    </div>
+
+    <div id="main" class="container">
+      <div id="game-board"></div>
+      <div id="current-player">Current player: <span id="current-player-name">-</span></div>
+      <div id="message"></div>
+      <div id="console"></div>
+      <div id="stats"></div>
+      <div id="preference-pane">
+        <div id="player-type-forms">
+          <label>
+            Black:
+            <select id="black-player-type">
+              <option value="human" selected>Human</option>
+              <option value="simpleCount-131072">AI OR ROBOT</option>
+             </select>
+          </label>
+          <label>
+            White:
+            <select id="white-player-type">
+             <option value="human" selected>Human</option>
+              <option value="simpleCount-131072">AI OR ROBOT</option>
+            </select>
+          </label>
+        </div>
+        <button id="swap-player-types-button" class="btn" type="button">⇅</button>
+
+
+        </div>
+        <button id="start-button" class="btn btn-primary" type="submit">Start a new game</button>
+      </div>
+    </div>
+
+     <div class=" navbar navbar-inverse">
+      <div class="navbar-inner">
+        <h1>Life Is More Fun If You Play Games</h1>
+      </div>
+    </div>
+
+    <script src="boot & js/jquery/jquery-1.9.1.min.js"></script>
+    <script src="boot & js/twitter-bootstrap/js/bootstrap.min.js"></script>
+    <script src="othello.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
