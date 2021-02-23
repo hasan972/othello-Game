@@ -237,22 +237,6 @@ var othello = {};
   }
 
 
-
-
-  // Core logic: Bit board  {{{1
-  //
-  // Naming conventions:
-  //   b = black
-  //   w = white
-  //   o = offense
-  //   d = defense
-  //   e = empty
-  //   a = attackable
-  //   u = upper half of a board
-  //   l = lower half of a board
-  //
-  // Assumption: N = 8
-
   var N2 = N >> 1;
 
   function listAttackableCells(board, player) {
